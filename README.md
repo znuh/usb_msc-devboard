@@ -1,4 +1,4 @@
-# devboard for USB mass storage
+# Devboard for USB mass storage
 ![Photo](https://user-images.githubusercontent.com/198567/226181044-9288992e-d87a-46f9-b368-dd583198cf9f.jpg)
 
 EDA: [KiCad7](https://www.kicad.org/)
