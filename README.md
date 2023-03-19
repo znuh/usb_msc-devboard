@@ -1,6 +1,8 @@
 # devboard for USB mass storage
 ![Photo](https://user-images.githubusercontent.com/198567/226181044-9288992e-d87a-46f9-b368-dd583198cf9f.jpg)
 
+EDA: [KiCad7](https://www.kicad.org/)
+
 ## Parts
 * MCU: [STM32F730R8Tx](https://www.st.com/en/microcontrollers-microprocessors/stm32f730r8.html) (or compatible)
 * Mass storage: MicroSD via [DM3D-SF](https://www.hirose.com/product/series/DM3#) socket (attached to SDMMC1 of STM32)
@@ -17,5 +19,5 @@
 * USB-C connector for hi-speed USB
 * Micro USB connector for dev/debugging/DFU bootloader
 * Testpads on bottom for UART (debugging, etc.)
-* only one 13MHz crystal connected to STM32 - MCO1 output of STM32 clocks USB PHY
+* only one 13MHz crystal, connected to STM32 - MCO1 output of STM32 clocks USB PHY
 * serial termination resistors in all clock lines
