@@ -17,3 +17,5 @@
 * USB-C connector for hi-speed USB
 * Micro USB connector for dev/debugging/DFU bootloader
 * Testpads on bottom for UART (debugging, etc.)
+* only one 13MHz crystal connected to STM32 - MCO1 output of STM32 clocks USB PHY
+* serial termination resistors in all clock lines
