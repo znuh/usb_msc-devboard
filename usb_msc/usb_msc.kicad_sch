@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "usb_msc devboard")
+    (date "2023-03-19")
+    (rev "v1")
+    (company "znuh")
+  )
+
   (lib_symbols
     (symbol "Connector:Micro_SD_Card_Det_Hirose_DM3AT" (in_bom yes) (on_board yes)
       (property "Reference" "J" (at -16.51 17.78 0)
@@ -2854,13 +2861,10 @@
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid b2e9419f-77bb-4194-8d6e-b1ad8b311ab7)
   )
-  (text "DFU requires 4..26MHz XTAL\nlower is better" (at 252.73 172.72 0)
+  (text "USB3318 required 13MHz\nSTM32 DFU requires 4..26MHz XTAL\nlower is better"
+    (at 139.7 71.12 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e1ef1268-7d1b-4db4-b59c-3ec3b0afdfd9)
-  )
-  (text "f_MAX_SDMMC: 50MHz (48MHz?)" (at 213.36 175.26 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid e27a1ed5-53c4-4e05-bdd2-6043dcc12010)
   )
   (text "SDMMC2_D7, SDMMC1_D7" (at 195.58 101.6 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
